@@ -33,8 +33,9 @@ function Homepage() {
 
           <motion.img
             
-            className="h-full object-cover object-left "
-            src={"/singapor.png"}
+            className="h-full object-cover "
+
+            src={"/flag.jpeg"}
             alt=""
           />
         </motion.div>
@@ -63,7 +64,7 @@ function Homepage() {
 
               <button className="text-xs flex w-full items-center justify-between border dark:border-neutral-600 border-neutral-400/60  mt-9 rounded-full p-1 px-2 dark:bg-neutral-700/40 sm:w-full">
 
-                 <a href="mailto:evrquest@outlook.com" className="flex w-full justify-between " >Contact me <PiArrowUpRight/></a>  
+                 <a href="mailto:evrinnovate@outlook.com" className="flex w-full justify-between " >Contact me <PiArrowUpRight/></a>  
 
                 
               </button>
@@ -79,7 +80,7 @@ function Homepage() {
           <div className=" absolute w-full p-2 z-10">
             <div className="flex justify-between items-center ">
               <p className="text-xs">About</p>
-              <p className="text-neutral-500 text-xs ">EvrQuest</p>
+              <p className="text-neutral-500 text-xs ">EvrInnovate</p>
             </div>
             <div className="w-full h-[0.9px] dark:bg-neutral-600 bg-neutral-400/60 mt-1 top-7  " />
           </div>
@@ -157,7 +158,7 @@ function Homepage() {
             <div className="flex justify-center gap-x-2 px-2">
               <Tooltip showArrow={true} content="X (Twitter)" color="#161616">
                 <a
-                href="mailto:evrquest@outlook.com"
+                href="https://xahau.xrplwin.com/evernode#host:r9uBKvuuRnEjmGbpQYM1bC6TkbRqKkttxa"
                 className="rounded-full border dark:border-neutral-600 cursor-pointer border-neutral-400/60 p-2 w-16 h-16 flex items-center justify-center"
                 >
                   <RiTwitterXLine className="text-xl" />
@@ -165,7 +166,7 @@ function Homepage() {
               </Tooltip>
               <Tooltip showArrow={true} content="GitHub" color="#161616">
                 <a
-                href="mailto:evrquest@outlook.com"
+                href="https://xahau.xrplwin.com/evernode#host:r9uBKvuuRnEjmGbpQYM1bC6TkbRqKkttxa"
                 className="rounded-full border dark:border-neutral-600 cursor-pointer border-neutral-400/60 p-2 w-16 h-16 flex items-center justify-center"
                 >
                   <PiGithubLogoThin className="text-xl" />
@@ -173,7 +174,7 @@ function Homepage() {
               </Tooltip>
               <Tooltip showArrow={true} content="Behance" color="#161616">
                 <a
-                href="mailto:evrquest@outlook.com"
+                href="https://xahau.xrplwin.com/evernode#host:r9uBKvuuRnEjmGbpQYM1bC6TkbRqKkttxa"
                 className="rounded-full border dark:border-neutral-600 cursor-pointer border-neutral-400/60 p-2 w-16 h-16 flex items-center justify-center"
                 >
                   <PiBehanceLogoThin className="text-xl" />
@@ -182,7 +183,7 @@ function Homepage() {
               </Tooltip>
               <Tooltip showArrow={true} content="E-mail" color="#161616">
                 <a
-                href="mailto:evrquest@outlook.com"
+                href="mailto:evrInnovate@outlook.com"
                 className="rounded-full border dark:border-neutral-600 cursor-pointer border-neutral-400/60 p-2 w-16 h-16 flex items-center justify-center"
                 >
                   <IoIosMailUnread className="text-xl" />
@@ -209,14 +210,14 @@ function Homepage() {
           <div className=" absolute w-full  p-2 z-10">
             <div className="flex justify-between items-center ">
               <p className="text-xs text-zinc-300">Location</p>
-              <p className=" text-zinc-300 text-xs ">Singapore</p>
+              <p className=" text-zinc-300 text-xs ">Tokyo</p>
             </div>
             <div className="w-full h-[0.9px] dark:bg-neutral-600 bg-neutral-400/60 mt-1 top-7  " />
           </div>
           <motion.img
             whileHover={{ scale: 3 }}
             className="h-full w-full duration-300 transition-all ease-in-out object-cover"
-            src={"/singapore-night.jpeg"}
+            src={"/mapstok.jpeg"}
             alt=""
           />
         </motion.div>
