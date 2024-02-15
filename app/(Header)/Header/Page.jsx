@@ -18,9 +18,9 @@ function HeaderPage() {
   const { theme, systemTheme, setTheme } = useTheme();
 
   const links = [
-    { name: "/jo1.jpeg", theme: "dark" },
-    { name: "/jo2.jpeg", theme: "light" },
-    { name: "/jo3.jpeg", theme: "system" },
+    { name: "/FS.png", theme: "dark" },
+    { name: "/FS.png", theme: "light" },
+    { name: "/FS.png", theme: "system" },
   ];
 
   const itemVariants = {
@@ -170,22 +170,17 @@ function HeaderPage() {
             width={200}
             height={200}
             className="w-10 h-10 rounded-full object-cover"
-            src="/jo3.jpeg"
+            src="/FS.png"
             alt=""
           />
 
           <div>
-            <h4 className="text-xs ">Joscript Joeeeeeeee</h4>
-            <p className="text-[#828282] text-xs">Software Developer</p>
+            <h4 className="text-xs ">ForevrSmart </h4>
+            <p className="text-[#828282] text-xs">Instances provider</p>
           </div>
         </div>
 
-        <div>
-          <button className="flex w-40 items-center justify-between border border-neutral-600 rounded-full p-1 px-5">
-            <span className="text-xs">Buy my Template</span>
-            <PiArrowRightThin />
-          </button>
-        </div>
+
       </nav>
 
       <div className="mx-auto w-full max-w-[1120px] mt-4 flex justify-center relative">
