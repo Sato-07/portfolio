@@ -18,9 +18,9 @@ function HeaderPage() {
   const { theme, systemTheme, setTheme } = useTheme();
 
   const links = [
-    { name: "/logo.jpeg", theme: "dark" },
-    { name: "/logo.jpeg", theme: "light" },
-    { name: "/logo.jpeg", theme: "system" },
+    { name: "D", theme: "dark" },
+    { name: "L", theme: "light" },
+    { name: "S", theme: "system" },
   ];
 
   const itemVariants = {
@@ -123,7 +123,7 @@ function HeaderPage() {
 
             {/*  */}
 
-            <div className="bg-[#161616] overflow-hidden  h-fit rounded-xl mt-1">
+            <div className="bg-[#161616] overflow-hidden  h-fit rounded-lg mt-1">
               {open && (
                 <div className="gap-x-1 flex justify-center">
                   {links.map(({ name, theme }, index) => {
@@ -142,17 +142,14 @@ function HeaderPage() {
                               className="dark:bg-[#ffffff] bg-yellow-500 w-fit top-0 border border-neutral-700/40   absolute inset-0 z-[2] rounded-2xl"
                             ></motion.span>
                           )}
-
-                          <Image
-                            width={200}
-                            height={200}
-                            onClick={() => handleTheme(theme)}
-                            onMouseEnter={() => setHovertheme(theme)}
-                            onMouseLeave={() => setHovertheme(null)}
-                            className="w-8 h-8 opacity-25 duration-500 transition-all ease-in hover:opacity-100 object-cover rounded-full"
-                            src={name}
-                            alt=""
-                          />
+                            <div
+                              className="w-5 h-5 flex justify-center text-sm items-center opacity-25 duration-500 transition-all ease-in hover:opacity-100 rounded-full bg-gray-300 text-gray-800"
+                              onClick={() => handleTheme(theme)}
+                              onMouseEnter={() => setHovertheme(theme)}
+                              onMouseLeave={() => setHovertheme(null)}
+                            >
+                              {name}
+                            </div>
                         </motion.div>
                       </>
                     );
@@ -165,17 +162,9 @@ function HeaderPage() {
       </AnimatePresence>
 
       <nav className="flex justify-between items-center w-full  px-4 pt-10 max-w-6xl mx-auto">
-        <div className="flex gap-x-3 items-center">
-          <Image
-            width={200}
-            height={200}
-            className="w-10 h-10 rounded-full object-cover"
-            src="/logo.jpeg"
-            alt=""
-          />
-
+        <div className="flex items-center">
           <div>
-            <h4 className="text-xs ">ForevrSmart </h4>
+            <h4 className="text-xs ">EvrQuest </h4>
             <p className="text-[#828282] text-xs">Instances provider</p>
           </div>
         </div>
