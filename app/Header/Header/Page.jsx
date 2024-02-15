@@ -18,9 +18,9 @@ function HeaderPage() {
   const { theme, systemTheme, setTheme } = useTheme();
 
   const links = [
-    { name: "/FS.png", theme: "dark" },
-    { name: "/FS.png", theme: "light" },
-    { name: "/FS.png", theme: "system" },
+    { name: "/logo.png", theme: "dark" },
+    { name: "/logo.png", theme: "light" },
+    { name: "/logo.png", theme: "system" },
   ];
 
   const itemVariants = {
@@ -170,7 +170,7 @@ function HeaderPage() {
             width={200}
             height={200}
             className="w-10 h-10 rounded-full object-cover"
-            src="/FS.png"
+            src="/logo.png"
             alt=""
           />
 
