@@ -33,7 +33,7 @@ function Homepage() {
 
           <motion.img
             
-            className="h-full object-cover"
+            className="h-full object-cover object-left "
             src={"/singapor.png"}
             alt=""
           />
@@ -209,7 +209,7 @@ function Homepage() {
           <div className=" absolute w-full  p-2 z-10">
             <div className="flex justify-between items-center ">
               <p className="text-xs text-zinc-300">Location</p>
-              <p className=" text-zinc-300 text-xs ">Mumbai</p>
+              <p className=" text-zinc-300 text-xs ">Singapore</p>
             </div>
             <div className="w-full h-[0.9px] dark:bg-neutral-600 bg-neutral-400/60 mt-1 top-7  " />
           </div>
