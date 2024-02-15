@@ -164,7 +164,7 @@ function HeaderPage() {
       <nav className="flex justify-between items-center w-full  px-4 pt-10 max-w-6xl mx-auto">
         <div className="flex items-center">
           <div>
-            <h4 className="text-xs ">EvrInnovate </h4>
+            <h4 className="text-xs ">SmartEvr </h4>
             <p className="text-[#828282] text-xs">Instances provider</p>
           </div>
         </div>
