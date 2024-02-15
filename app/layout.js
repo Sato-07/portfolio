@@ -26,7 +26,7 @@ export default function RootLayout({ children }) {
       <head>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>EvrSmartLabs</title>
+        <title>EvryGood</title>
       </head>
       <body>
         {/* <body className={`${font.className} `}> */}
