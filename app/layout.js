@@ -3,8 +3,8 @@ import "./globals.css";
 import Theming from "@/components/providers/Theme";
 // import UiProvider from "@/components/providers/UiProvider";
 
-import HeaderPage from "./(Header)/Header/Page";
-import Footer from "./components/Footer";
+import HeaderPage from "@/app/Header/Header/Page.jsx";
+import Footer from "@/app/components/Footer.jsx";
 
 // const inter = Inter({ subsets: ["latin"] });
 
